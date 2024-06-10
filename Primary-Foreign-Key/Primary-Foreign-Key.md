@@ -13,19 +13,28 @@ Cizí klíč je sloupec v tabulce, který odkazuje na primární klíč v jiné 
 V tabulce "Objednávky" by mohl být sloupec "CustomerID" cizím klíčem, který odkazuje na primární klíč "ID" v tabulce "Zákazníci". To umožňuje spojit objednávku s konkrétním zákazníkem.
 
 ```sql
-#### Zaměstnanci
-| ID | Jméno    | Příjmení | Oddělení |
-|----|----------|----------|----------|
-| 1  | John     | Doe      | IT       |
-| 2  | Jane     | Smith    | Finance  |
-| 3  | Bob      | Johnson  | HR       |
+CREATE TABLE Zaměstnanci (
+    ID INT PRIMARY KEY,
+    Jméno VARCHAR(50),
+    Příjmení VARCHAR(50),
+    Oddělení VARCHAR(50)
+);
 
-#### Objednávky
-| OrderID | CustomerID | Produkt  | Množství |
-|---------|------------|----------|----------|
-| 101     | 1          | Laptop   | 2        |
-| 102     | 3          | Mobil    | 1        |
-| 103     | 2          | Tiskárna | 1        |
-```
+CREATE TABLE Objednávky (
+    OrderID INT PRIMARY KEY,
+    CustomerID INT,
+    Produkt VARCHAR(50),
+    Množství INT,
+    FOREIGN KEY (CustomerID) REFERENCES Zaměstnanci(ID)
+);
 
-V tomto příkladu sloupec "ID" v tabulce "Zaměstnanci" slouží jako primární klíč. Sloupec "CustomerID" v tabulce "Objednávky" je cizím klíčem, který odkazuje na primární klíč v tabulce "Zaměstnanci"
+INSERT INTO Zaměstnanci (ID, Jméno, Příjmení, Oddělení) VALUES
+(1, 'John', 'Doe', 'IT'),
+(2, 'Jane', 'Smith', 'Finance'),
+(3, 'Bob', 'Johnson', 'HR');
+
+INSERT INTO Objednávky (OrderID, CustomerID, Produkt, Množství) VALUES
+(101, 1, 'Laptop', 2),
+(102, 3, 'Mobil', 1),
+(103, 2, 'Tiskárna', 1);```
+
