@@ -71,3 +71,34 @@
 - LAST_INSERT_ID() - Funkce pro získání hodnoty posledního AUTO_INCREMENT sloupce vloženého do tabulky.
 - FOUND_ROWS() - Funkce pro získání počtu řádků ovlivněných posledním dotazem SELECT.
 - ROW_COUNT() - Funkce pro získání počtu ovlivněných řádků v posledním dotazu (používané v MySQL).
+- IF() - Funkce pro vyhodnocení podmínky a vrácení hodnoty na základě výsledku.
+- CASE - Klauzule pro podmíněné vyhodnocení výrazu a vrácení odpovídající hodnoty.
+- WHEN - Klauzule používaná společně s CASE pro definici podmínek.
+- THEN - Klauzule používaná společně s CASE pro definici návratové hodnoty v případě splnění podmínky.
+- ELSE - Klauzule používaná společně s CASE pro definici výchozí návratové hodnoty v případě, že žádná z podmínek není splněna.
+- END - Klauzule pro ukončení CASE výrazu.
+- LEAST - Funkce pro získání nejmenší hodnoty z poskytnutých vstupů.
+- GREATEST - Funkce pro získání největší hodnoty z poskytnutých vstupů.
+- IS NULL - Operátor pro ověření, zda hodnota sloupce je NULL.
+- IS NOT NULL - Operátor pro ověření, zda hodnota sloupce není NULL.
+- EXISTS - Operátor pro ověření existence řádků vrácených poddotazem.
+- CONCAT() - Funkce pro spojení řetězců.
+- SUBSTRING() - Funkce pro získání podřetězce z řetězce.
+- UPPER() - Funkce pro převod řetězce na velká písmena.
+- LOWER() - Funkce pro převod řetězce na malá písmena.
+- TRIM() - Funkce pro odstranění mezer z počátku a konce řetězce.
+- LTRIM() - Funkce pro odstranění mezer z levého konce řetězce.
+- RTRIM() - Funkce pro odstranění mezer z pravého konce řetězce.
+- LENGTH() - Funkce pro získání délky řetězce.
+- ROUND() - Funkce pro zaokrouhlení čísla na určitý počet desetinných míst.
+- CEIL() - Funkce pro zaokrouhlení čísla nahoru.
+- FLOOR() - Funkce pro zaokrouhlení čísla dolů.
+- ABS() - Funkce pro získání absolutní hodnoty čísla.
+- MOD() - Funkce pro získání zbytku po dělení dvou čísel.
+- RAND() - Funkce pro generování náhodného čísla.
+- NOW() - Funkce pro získání aktuálního data a času.
+- CONCAT_WS() - Funkce pro spojení řetězců s oddělovačem.
+- COALESCE() - Funkce pro vrácení první nenulové hodnoty ze seznamu hodnot.
+- NULLIF() - Funkce pro porovnání dvou hodnot a vrácení NULL, pokud jsou hodnoty stejné.
+- NVL() - Funkce pro nahrazení NULL hodnoty jinou hodnotou.
+- IFNULL() - Funkce pro nahrazení NULL hodnoty jinou hodnotou.
