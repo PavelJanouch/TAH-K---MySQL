@@ -102,3 +102,22 @@
 - NULLIF() - Funkce pro porovnání dvou hodnot a vrácení NULL, pokud jsou hodnoty stejné.
 - NVL() - Funkce pro nahrazení NULL hodnoty jinou hodnotou.
 - IFNULL() - Funkce pro nahrazení NULL hodnoty jinou hodnotou.
+- INDEX SEEK - Operace vyhledávání v indexu, která umožňuje rychlé nalezení konkrétních záznamů.
+- INDEX SCAN - Operace procházení indexu pro nalezení odpovídajících záznamů, což může být pomalejší než INDEX SEEK.
+- TRANSACTION - Skupina příkazů SQL, které musí být provedeny jako celek (buď všechny najednou, nebo žádný z nich).
+- COMMIT - Příkaz pro potvrzení provedení transakce, čímž se trvale uloží změny provedené v rámci této transakce.
+- ROLLBACK - Příkaz pro vrácení transakce zpět do původního stavu, čímž se zruší všechny změny provedené v rámci této transakce.
+- LOCKING - Mechanismus pro omezení přístupu k datům v databázi, aby se zabránilo konfliktům a ztrátě konzistence.
+- DEADLOCK - Situace, kdy dva nebo více procesy nebo transakce jsou vzájemně zablokovány, protože každý z nich čeká na uvolnění zdroje, který drží druhý.
+- ACID - Zásady transakční integrity, které zahrnují Atomicitu (Atomickost), Konzistenci, Izolaci a Trvalost.
+- VIEW - Virtuální tabulka, která zobrazuje výsledky předdefinovaného dotazu.
+- STORED PROCEDURE - Sada instrukcí, které jsou uloženy v databázi a mohou být vyvolány z jiných dotazů nebo aplikací.
+- TRIGGER - Speciální typ procedury, která se automaticky spustí (aktivuje), když se provádí určitá operace (např. INSERT, UPDATE, DELETE) na tabulce.
+- NORMALIZATION - Proces návrhu databázové struktury tak, aby minimalizoval redundanci dat a zajišťoval konzistenci dat.
+- DENORMALIZATION - Proces optimalizace výkonu databáze, kdy jsou data znovu strukturována tak, aby vyhovovala konkrétním požadavkům výkonu a rychlosti.
+- JOINS - Technika spojování dat z různých tabulek na základě podmínky spojení.
+- AGGREGATE FUNCTIONS - Funkce, které provádějí výpočty na sadě hodnot a vracejí jednu hodnotu, jako je průměr, součet, minimum, maximum atd.
+- WINDOW FUNCTIONS - Funkce, které provádějí výpočty nad skupinami řádků v rámci okna (části výsledkové sady).
+- TEMPORARY TABLES - Dočasné tabulky, které existují pouze po dobu trvání relace nebo do té doby, dokud jsou explicitně odstraněny.
+- SUBQUERIES - Dotazy (poddotazy), které jsou vloženy do jiného dotazu jako součást výběrového kritéria nebo pro získání dat pro manipulaci.
+
