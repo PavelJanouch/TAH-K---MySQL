@@ -23,6 +23,7 @@ Struktura tabulky se skládá z názvů sloupců a jejich datových typů. Každ
 | John    | Doe      | 30  | john@example.com |
 | Jane    | Smith    | 28  | jane@example.com |
 | Michael | Johnson  | 35  | michael@example.com |
+```sql
 
 ### Typy tabulek
 
