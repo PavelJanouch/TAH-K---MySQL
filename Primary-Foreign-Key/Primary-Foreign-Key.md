@@ -12,8 +12,6 @@ Cizí klíč je sloupec v tabulce, který odkazuje na primární klíč v jiné 
 **Příklad:**
 V tabulce "Objednávky" by mohl být sloupec "CustomerID" cizím klíčem, který odkazuje na primární klíč "ID" v tabulce "Zákazníci". To umožňuje spojit objednávku s konkrétním zákazníkem.
 
-#### Příklad v Markdownu:
-
 ```sql
 #### Zaměstnanci
 | ID | Jméno    | Příjmení | Oddělení |
