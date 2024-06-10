@@ -1,0 +1,73 @@
+- SELECT - Příkaz pro výběr dat z tabulky.
+- INSERT - Příkaz pro vložení nových záznamů do tabulky.
+- UPDATE - Příkaz pro aktualizaci existujících záznamů v tabulce.
+- DELETE - Příkaz pro odstranění záznamů z tabulky.
+- CREATE TABLE - Příkaz pro vytvoření nové tabulky v databázi.
+- ALTER TABLE - Příkaz pro změnu struktury stávající tabulky v databázi.
+- DROP TABLE - Příkaz pro odstranění tabulky z databáze.
+- CREATE INDEX - Příkaz pro vytvoření nového indexu v tabulce.
+- DROP INDEX - Příkaz pro odstranění indexu z tabulky.
+- CREATE VIEW - Příkaz pro vytvoření nového pohledu v databázi.
+- DROP VIEW - Příkaz pro odstranění pohledu z databáze.
+- COMMIT - Příkaz pro potvrzení transakce.
+- ROLLBACK - Příkaz pro vrácení transakce zpět do původního stavu.
+- BEGIN TRANSACTION - Příkaz pro zahájení nové transakce.
+- GRANT - Příkaz pro přidělení oprávnění uživatelům v databázi.
+- REVOKE - Příkaz pro odebrání oprávnění uživatelům v databázi.
+- USE - Příkaz pro výběr konkrétní databáze, kterou chceme používat.
+- DESC - Příkaz pro zobrazení struktury tabulky (popis sloupců).
+- TRUNCATE TABLE - Příkaz pro odstranění všech záznamů z tabulky.
+- UNION - Příkaz pro spojení výsledků dvou nebo více SELECT dotazů.
+- DISTINCT - Příkaz pro získání pouze unikátních hodnot výsledků dotazu.
+- COUNT - Příkaz pro získání počtu řádků nebo hodnot výsledků dotazu.
+- AVG - Příkaz pro výpočet průměrné hodnoty určitého sloupce.
+- SUM - Příkaz pro výpočet součtu hodnot určitého sloupce.
+- MIN - Příkaz pro získání nejmenší hodnoty určitého sloupce.
+- MAX - Příkaz pro získání největší hodnoty určitého sloupce.
+- GROUP BY - Příkaz pro seskupení výsledků dotazu podle určitého sloupce.
+- HAVING - Příkaz pro filtrování výsledků dotazu na základě seskupení.
+- ORDER BY - Příkaz pro řazení výsledků dotazu podle určitého sloupce.
+- LIMIT - Příkaz pro omezení počtu řádků vrácených výsledkem dotazu.
+- JOIN - Operátor pro spojení dat z různých tabulek na základě určité podmínky.
+- INNER JOIN - Typ spojení, který vrátí pouze řádky, které mají odpovídající hodnoty ve spojených tabulkách.
+- LEFT JOIN - Typ spojení, který vrátí všechny řádky z levé tabulky a odpovídající řádky z pravé tabulky.
+- RIGHT JOIN - Typ spojení, který vrátí všechny řádky z pravé tabulky a odpovídající řádky z levé tabulky.
+- FULL JOIN - Typ spojení, který vrátí všechny řádky z obou spojovaných tabulek, ať mají odpovídající hodnoty nebo ne.
+- CROSS JOIN - Typ spojení, který vrací kartézský součin dvou tabulek.
+- NATURAL JOIN - Typ spojení, který spojí tabulky na základě shodných názvů sloupců.
+- PRIMARY KEY - Unikátní identifikátor každého záznamu v tabulce.
+- FOREIGN KEY - Sloupec v tabulce odkazující na primární klíč v jiné tabulce, vytváří vztahy mezi tabulkami.
+- CONSTRAINT - Omezení používané pro definici pravidel pro sloupce nebo tabulky.
+- INDEX - Datová struktura zrychlující vyhledávání záznamů v tabulce.
+- VIEW - Virtuální tabulka v databázi, která obsahuje data z jiných tabulek nebo pohledů.
+- TRIGGER - Speciální typ procedury, která se spustí automaticky při určité události v databázi.
+- PROCEDURE - Sada instrukcí uložených v databázi a spuštěných na vyžádání.
+- FUNCTION - Blok kódu, který přijímá určité vstupy, provádí operace a vrací hodnotu.
+- DATABASE - Organizovaná sbírka dat, uložená pod jedním názvem a obvykle spojená s určitým softwarovým systémem.
+- COLUMN - Jedna z vertikálních částí tabulky, která definuje typ dat pro každý záznam.
+- ROW - Jedna z horizontálních částí tabulky
+- CURDATE() - Funkce pro získání aktuálního data.
+- CURTIME() - Funkce pro získání aktuálního času.
+- CURRENT_DATE - Speciální klíčové slovo pro získání aktuálního data.
+- CURRENT_TIME - Speciální klíčové slovo pro získání aktuálního času.
+- CURRENT_TIMESTAMP - Speciální klíčové slovo pro získání aktuálního data a času.
+- DATE_FORMAT() - Funkce pro formátování data.
+- DATE_ADD() - Funkce pro přidání intervalu k datu.
+- DATE_SUB() - Funkce pro odečtení intervalu od data.
+- DATEDIFF() - Funkce pro výpočet rozdílu mezi dvěma daty.
+- DATEPART() - Funkce pro extrakci částí data, jako je den, měsíc, rok atd. (specifické pro některé DBMS, např. SQL Server).
+- DAY() - Funkce pro získání dne v měsíci z data.
+- MONTH() - Funkce pro získání měsíce z data.
+- YEAR() - Funkce pro získání roku z data.
+- HOUR() - Funkce pro získání hodiny z data nebo času.
+- MINUTE() - Funkce pro získání minuty z data nebo času.
+- SECOND() - Funkce pro získání sekundy z data nebo času.
+- WEEK() - Funkce pro získání týdne v roce z data.
+- DAYNAME() - Funkce pro získání názvu dne v týdnu z data.
+- MONTHNAME() - Funkce pro získání názvu měsíce z data.
+- DAYOFWEEK() - Funkce pro získání čísla dne v týdnu z data.
+- DAYOFMONTH() - Funkce pro získání dne v měsíci z data.
+- DAYOFYEAR() - Funkce pro získání dne v roce z data.
+- LAST_INSERT_ID() - Funkce pro získání hodnoty posledního AUTO_INCREMENT sloupce vloženého do tabulky.
+- FOUND_ROWS() - Funkce pro získání počtu řádků ovlivněných posledním dotazem SELECT.
+- ROW_COUNT() - Funkce pro získání počtu ovlivněných řádků v posledním dotazu (používané v MySQL).
